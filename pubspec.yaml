@@ -26,6 +26,7 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: Oswald
+    - family: Redressed
       fonts:
-        - asset: assets/fonts/oswald.ttf
+        - asset: assets/fonts/redressed.ttf
+

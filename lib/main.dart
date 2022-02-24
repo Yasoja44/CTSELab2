@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/pages/profile.dart';
 
@@ -20,14 +21,17 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           title: const Text(
             "Profile",
             style: TextStyle(
-              fontSize: 24
+              fontSize: 24,
+
             ),
           ),
         ),
         body: const Profile(),
+        backgroundColor: Colors.yellow[200],
       )
     );
   }
